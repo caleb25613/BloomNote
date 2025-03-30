@@ -18,9 +18,9 @@ st.markdown("""
 <style>
 @font-face {
   font-family: 'DungGeunMo';
-  src: url('https://raw.githubusercontent.com/caleb25613/bloomnote/main/BloomNote_Font_DungGeunMo.ttf');
-
-html, body, [class*="css"]  {
+  src: url('https://raw.githubusercontent.com/caleb25613/bloomnote/main/BloomNote_Font_DungGeunMo.ttf') format('truetype');
+}
+html, body, [class*="css"] {
   font-family: 'DungGeunMo', sans-serif;
   background-color: #fff0f5;
   color: #4b2e2e;
@@ -29,7 +29,7 @@ html, body, [class*="css"]  {
 """, unsafe_allow_html=True)
 
 # 💖 상단 이미지 (게임 상태창 느낌)
-st.image("https://i.ibb.co/QnRQRPt/gamestatus-bar.png", use_column_width=True)
+st.image("https://i.ibb.co/QnRQRPt/gamestatus-bar.png", use_container_width=True)
 
 st.title("🌸 BloomNote - 오늘의 경제 상태창")
 st.markdown(f"**📆 {date_str} 기준 실시간 정보입니다!**")
