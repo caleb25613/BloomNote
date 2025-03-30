@@ -18,8 +18,8 @@ st.markdown("""
 <style>
 @font-face {
   font-family: 'DungGeunMo';
-  src: url('https://raw.githubusercontent.com/ChalkPE/DungGeunMo-L/raw/master/DungGeunMo.woff') format('woff');
-}
+  src: url('https://raw.githubusercontent.com/caleb25613/bloomnote/main/BloomNote_Font_DungGeunMo.ttf');
+
 html, body, [class*="css"]  {
   font-family: 'DungGeunMo', sans-serif;
   background-color: #fff0f5;
